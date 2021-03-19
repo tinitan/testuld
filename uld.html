@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>jQuery Mobile</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style>
+
+img{
+       width: 100%;
+     }
+
+button{ /* 버튼 꾸미기 */
+text-align: center;  
+display : block;
+margin : auto;
+font-size: 30px;
+padding: 5px;
+color: CCFFFF;
+background: green;
+border-radius: 20px;
+width: 100%;
+}  
+
+</style>
+</head>
+
+<body>
+<div data-theme="b">
+	<div data-role="page" id="home">
+		<div data-role="header" data-theme="b">
+			<h1>울릉도 소개</h1>
+		</div>
+		<div data-role="content" style="text-align:center">
+				<img src="uldc.jpg" >
+			<ul data-role="listview" data-inset="true">
+				<button><a href="https://tinitan.github.io/ullungisland/">울릉도 소개</a></button>
+				<button><a href="https://tinitan.github.io/ullungisland/" data-rel="dialog">울릉도 여행기</a></button>
+				<button><a href="https://tinitan.github.io/ullungisland/ullungd">배편 & 안내도</a></button>
+				<button><a href="#gallery">추천할 만한곳</a></button>
+				<button><a href="#gallery">여 행 팁</a></button>
+			</ul>
+		</div>
+		
+	</div>
+	
+	
+</div>	
+</body>
+</html>
